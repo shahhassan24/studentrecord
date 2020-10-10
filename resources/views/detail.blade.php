@@ -89,4 +89,7 @@
 
     </div>
 
+    <a class="btn btn-primary" href="{{ route('students.edit',['student_id' => $student->id]) }}">Edit</a>
+
+
 @endsection
